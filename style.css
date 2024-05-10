@@ -1,1 +1,4 @@
 /* Ready to be styled! */
+.container {
+    display: grid;
+}
