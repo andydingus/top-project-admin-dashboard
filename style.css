@@ -1,4 +1,55 @@
-/* Ready to be styled! */
+/* Container styles */
 .container {
     display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.sub-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+/* Header styles */
+
+.header {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+/* Nav styles */
+
+.nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.welcome {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.image {
+    /* Change from class to img element later on when the user profile picture is added */
+    grid-row: 1/3;
+}
+
+/* Sidebar styles */
+
+.sidebar {
+    grid-row: 1 / 4;
+}
+
+/* Trending section styles */
+.trending {
+    grid-column: 2 / 3;
+}
+
+/* List styles */
+ul {
+    list-style-type: none;
+}
+
+.menu ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
