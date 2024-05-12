@@ -17,6 +17,12 @@
   grid-template-columns: 2fr 1fr;
 }
 
+/* .menu ul > li > img {
+  width: 20px;
+  border-radius: 20px;
+  border: 2px solid black;
+} */
+
 /* Messing around with search bar styles */
 .search {
   display: flex;
@@ -75,4 +81,20 @@ ul {
 .menu ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+
+/* Profile pic styles */
+.profile-pic {
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+.profile-pic.small {
+  width: 20px;
+}
+
+.profile-pic.medium {
+  width: 50px;
 }
