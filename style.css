@@ -52,8 +52,9 @@
 }
 
 .welcome {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
+  display: flex;
+  align-items: center;
+  padding: 20px;
 }
 
 .image {
