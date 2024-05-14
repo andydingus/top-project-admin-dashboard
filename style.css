@@ -1,3 +1,17 @@
+/* Font styles */
+/* Roboto */
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
 /* Container styles */
 .container {
   display: grid;
@@ -51,6 +65,18 @@
   grid-template-columns: 1fr 1fr;
 }
 
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-items {
+  background-color: #1992d4;
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: white;
+}
+
 .welcome {
   display: flex;
   align-items: center;
@@ -84,6 +110,7 @@ ul {
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
   align-items: center;
+  padding: 0;
 }
 
 /* Profile pic styles */
