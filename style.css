@@ -12,6 +12,12 @@
   font-style: italic;
 }
 
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
 /* Container styles */
 .container {
   display: grid;
@@ -67,7 +73,7 @@
 
 .menu {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .nav-items {
@@ -111,6 +117,7 @@ ul {
   justify-items: center;
   align-items: center;
   padding: 0;
+  gap: 25px;
 }
 
 /* Profile pic styles */
