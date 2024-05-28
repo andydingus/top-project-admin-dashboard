@@ -112,12 +112,13 @@ body {
 /* Main content styles */
 
 /* Had to type it like this for specificity */
-.main-content .column-one, .main-content .column-two{
+.main-content .column-one,
+.main-content .column-two {
   display: flex;
   flex-direction: column;
   padding: 10px 0 0 0;
+  height: 100%;
 }
-
 
 /* Column One */
 .main-content .projects {
@@ -129,11 +130,29 @@ body {
 }
 
 /* Column Two */
-.main-content .announcements, .main-content .trending {
+.main-content .announcements,
+.main-content .trending {
   padding-left: 0px;
 }
 
+.announcements {
+  height: 50%;
+}
 
+.announcements-content {
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 2px gray;
+}
+
+.announcements-content .title {
+  font-size: 14px;
+}
+.announcements-content p {
+  font-size: 11px;
+}
 
 /* Card styles */
 
@@ -154,8 +173,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  box-shadow: 2px 2px 2px gray;
 }
-
 
 .title {
   font-weight: bold;
