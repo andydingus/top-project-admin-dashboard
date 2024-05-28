@@ -111,12 +111,29 @@ body {
 
 /* Main content styles */
 
-.projects {
+/* Had to type it like this for specificity */
+.main-content .column-one, .main-content .column-two{
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0 0 0;
+}
+
+
+/* Column One */
+.main-content .projects {
   background-color: #bccbde;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 15px;
+  padding-left: 0px;
 }
+
+/* Column Two */
+.main-content .announcements, .main-content .trending {
+  padding-left: 0px;
+}
+
+
 
 /* Card styles */
 
@@ -139,8 +156,14 @@ body {
   justify-content: space-between;
 }
 
-.card .title {
+
+.title {
   font-weight: bold;
+}
+
+.content-title {
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .card .info {
