@@ -121,19 +121,23 @@ body {
 }
 
 /* Column One */
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .projects .projects-content {
   background-color: #bccbde;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 15px;
-  padding-left: 0px;
+  padding: 0;
 }
 
 /* Column Two */
 
-
 .announcements {
-  height: 50%;
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -182,7 +186,7 @@ body {
 
 .content-title {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .card .info {
@@ -213,12 +217,13 @@ body {
   gap: 10px;
 }
 
-.trending-content {
+.column-two .trending-content {
   background-color: #fff;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
   box-shadow: 2px 2px 2px gray;
+  padding: 0;
 }
 
 /* List styles */
