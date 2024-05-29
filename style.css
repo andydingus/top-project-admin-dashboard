@@ -226,6 +226,11 @@ body {
   padding: 0;
 }
 
+.accounts {
+  display: flex;
+  align-items: center;
+}
+
 /* List styles */
 ul {
   list-style-type: none;
