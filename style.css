@@ -223,12 +223,25 @@ body {
   display: flex;
   flex-direction: column;
   box-shadow: 2px 2px 2px gray;
-  padding: 0;
+  padding: 10px;
 }
 
 .accounts {
   display: flex;
   align-items: center;
+  gap: 10px;
+}
+
+.accounts .details {
+  padding: 0;
+}
+
+.details p {
+  font-size: 14px;
+}
+
+.username {
+  font-weight: bold;
 }
 
 /* List styles */
@@ -252,7 +265,7 @@ ul {
 }
 
 .profile-pic.small {
-  width: 20px;
+  width: 30px;
 }
 
 .profile-pic.medium {
