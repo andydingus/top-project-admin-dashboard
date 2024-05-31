@@ -158,6 +158,16 @@ body {
   font-size: 11px;
 }
 
+/* Dashboard styles */
+.sidebar .dashboard {
+  display: flex;
+  padding: 0;
+  align-items: center;
+}
+
+.dashboard img {
+  width: 50px;
+}
 /* Card styles */
 
 /* .projects p {
