@@ -159,14 +159,47 @@ body {
 }
 
 /* Dashboard styles */
+.sidebar {
+  color: #fff;
+}
+
+.sidebar img {
+  filter: invert(100%);
+}
+
 .sidebar .dashboard {
   display: flex;
   padding: 0;
   align-items: center;
+  gap: 7px;
 }
 
 .dashboard img {
   width: 50px;
+}
+
+.dashboard p {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.main-menu ul, .sub-menu ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.main-menu div, .sub-menu div {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  gap: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.main-menu img, .sub-menu img {
+  width: 20px;
 }
 /* Card styles */
 
