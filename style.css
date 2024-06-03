@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #bccbde;
+  background-color: #D52941;
 }
 
 /* Font styles */
@@ -89,6 +89,19 @@ body {
   grid-template-columns: 1fr 1fr;
   background-color: white;
   box-shadow: 0px 3px 0px 0px gray;
+  
+}
+
+.message, .name {
+  font-weight: bold;
+}
+
+.message {
+  font-size: 12px;
+}
+
+.name {
+  font-size: 20px;
 }
 
 .menu {
@@ -128,7 +141,7 @@ body {
 }
 
 .projects .projects-content {
-  background-color: #bccbde;
+  background-color: #D52941;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 15px;
@@ -144,7 +157,7 @@ body {
 }
 
 .announcements-content {
-  background-color: #fff;
+  background-color: #FFF8E8;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -160,11 +173,12 @@ body {
 
 /* Dashboard styles */
 .sidebar {
-  color: #fff;
+  color: #D52941;
 }
 
 .sidebar img {
-  filter: invert(100%);
+  /* Hex Color: #D52941 */
+  filter: invert(24%) sepia(42%) saturate(4876%) hue-rotate(336deg) brightness(87%) contrast(92%);
 }
 
 .sidebar .dashboard {
@@ -211,7 +225,7 @@ body {
 } */
 
 .projects-content .card {
-  background-color: #ffffff;
+  background-color: #FFF8E8;
   color: black;
   text-align: left;
   height: 200px;
@@ -250,7 +264,7 @@ body {
 
 .sidebar {
   grid-row: 1 / 4;
-  background-color: red;
+  background-color: #FFF8E8;
 }
 
 /* Trending section styles */
@@ -261,7 +275,7 @@ body {
 }
 
 .column-two .trending-content {
-  background-color: #fff;
+  background-color: #FFF8E8;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -313,4 +327,13 @@ ul {
 
 .profile-pic.medium {
   width: 50px;
+}
+
+
+.PALETTE {
+  color: #FFF;
+  color: #FFF8E8;
+  color: #FCD581;
+  color: #D52941;
+  color: #990D35;
 }
