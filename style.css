@@ -52,7 +52,7 @@ body {
 .header {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  background-color: white;
+  background-color: #fff8e8;
 }
 
 /* .menu ul > li > img {
@@ -87,7 +87,7 @@ body {
 .nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: white;
+  background-color: #fff8e8;
   box-shadow: 0px 3px 0px 0px gray;
 }
 
@@ -107,6 +107,10 @@ body {
 .menu {
   display: flex;
   justify-content: flex-end;
+}
+
+.menu img {
+  width: 20px;
 }
 
 .nav-items {
@@ -172,14 +176,11 @@ body {
 }
 
 /* Dashboard styles */
-.sidebar {
-  color: #d52941;
-}
 
 .sidebar img {
   /* Hex Color: #D52941 */
-  filter: invert(24%) sepia(42%) saturate(4876%) hue-rotate(336deg)
-    brightness(87%) contrast(92%);
+  filter: invert(96%) sepia(3%) saturate(3254%) hue-rotate(308deg)
+    brightness(109%) contrast(102%);
 }
 
 .sidebar .dashboard {
@@ -248,6 +249,7 @@ body {
 .content-title {
   font-weight: bold;
   font-size: 18px;
+  color: #fff8e8;
 }
 
 .card .info {
@@ -268,7 +270,8 @@ body {
 
 .sidebar {
   grid-row: 1 / 4;
-  background-color: #fff8e8;
+  background-color: #990d35;
+  color: #fff8e8;
 }
 
 /* Trending section styles */
